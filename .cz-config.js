@@ -47,10 +47,6 @@ module.exports = {
     {
       value: ':construction_worker: ci',
       name: '👷 ci:       CI related changes'
-    },
-    {
-      value: ':technologist: chore',
-      name: '🧑‍💻 chore:  改善开发者体验'
     }
   ],
   messages: {
