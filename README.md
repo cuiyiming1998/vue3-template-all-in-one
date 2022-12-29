@@ -43,3 +43,8 @@ pnpm i && pnpm dev
     ```
   - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
     约定式路由
+  
+- [x] Commit-Lint
+
+  - 集成了`commitlint-config-cz`与`commitlint-config-git-commit-emoji`
+  - 使用`pnpm commit`进行commit
