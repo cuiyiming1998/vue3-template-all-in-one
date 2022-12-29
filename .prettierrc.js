@@ -1,15 +1,15 @@
 module.exports = {
   printWidth: 80,
   tabWidth: 2,
-  useTabs: false,
+  // useTabs: true,
   semi: false,
   singleQuote: true,
   quoteProps: 'as-needed',
   jsxSingleQuote: false,
-  trailingComma: 'es5',
+  trailingComma: 'none',
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  arrowParens: 'always',
+  arrowParens: 'avoid',
   htmlWhitespaceSensitivity: 'ignore',
   vueIndentScriptAndStyle: true,
   endOfLine: 'lf'
