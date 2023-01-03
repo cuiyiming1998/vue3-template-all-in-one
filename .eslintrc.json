@@ -4,23 +4,23 @@
     "es2021": true,
     "node": true
   },
+  "parser": "vue-eslint-parser",
   "extends": [
     "./.eslintrc-auto-import.json",
-    "plugin:vue/vue3-essential",
     "eslint:recommended",
-    "@vue/standard",
-    "@vue/typescript/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended",
     "prettier",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser"
   },
   "plugins": [
     "@typescript-eslint",
     "prettier"
   ],
-  "parser": "vue-eslint-parser",
   "rules": {
     "prettier/prettier": "error",
     "no-case-declarations": "off",
@@ -31,6 +31,7 @@
       "error",
       "never"
     ],
+    "no-prototype-builtins": "warn",
     "vue/multi-word-component-names": "off"
   }
 }
